@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://www.bonbinosrockvillecentre.com/">
     <meta property="og:title" content="Bonbino's Pizzeria | Rockville Centre Pizza &amp; Italian Food">
     <meta property="og:description" content="Fresh pizza, pasta, Italian specialties, delivery, takeout, and catering from Bonbino's Pizzeria on Merrick Road in Rockville Centre, NY.">
-    <meta property="og:image" content="https://www.hunts.com/sites/g/files/qyyrlu211/files/uploadedImages/img_6934_48664.jpg">
+    <meta property="og:image" content="https://www.bonbinosrockvillecentre.com/assets/images/schema-16x9.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Fresh pizza from Bonbino's Pizzeria in Rockville Centre, NY">
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bonbino's Pizzeria | Rockville Centre Pizza &amp; Italian Food">
     <meta name="twitter:description" content="Fresh pizza, pasta, Italian specialties, delivery, takeout, and catering from Bonbino's Pizzeria in Rockville Centre, NY.">
-    <meta name="twitter:image" content="https://www.hunts.com/sites/g/files/qyyrlu211/files/uploadedImages/img_6934_48664.jpg">
+    <meta name="twitter:image" content="https://www.bonbinosrockvillecentre.com/assets/images/schema-16x9.jpg">
     <meta name="twitter:image:alt" content="Fresh pizza from Bonbino's Pizzeria in Rockville Centre, NY">
 
     <!-- Google Search Image -->
@@ -47,44 +47,65 @@
       "@id": "https://www.bonbinosrockvillecentre.com/#restaurant",
       "name": "Bonbino's Pizzeria",
       "url": "https://www.bonbinosrockvillecentre.com/",
-      "image": "https://www.hunts.com/sites/g/files/qyyrlu211/files/uploadedImages/img_6934_48664.jpg",
+      "image": [
+            "https://www.bonbinosrockvillecentre.com/assets/images/schema-1x1.jpg",
+            "https://www.bonbinosrockvillecentre.com/assets/images/schema-4x3.jpg",
+            "https://www.bonbinosrockvillecentre.com/assets/images/schema-16x9.jpg"
+      ],
       "telephone": "+15167649237",
-      "servesCuisine": ["Pizza", "Italian"],
+      "servesCuisine": [
+            "Pizza",
+            "Italian"
+      ],
       "priceRange": "$$",
       "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "605 Merrick Road",
-        "addressLocality": "Rockville Centre",
-        "addressRegion": "NY",
-        "postalCode": "11570",
-        "addressCountry": "US"
+            "@type": "PostalAddress",
+            "streetAddress": "605 Merrick Road",
+            "addressLocality": "Rockville Centre",
+            "addressRegion": "NY",
+            "postalCode": "11570",
+            "addressCountry": "US"
       },
       "hasMap": "https://www.google.com/maps/search/?api=1&query=Bonbino%27s%20Pizzeria%20605%20Merrick%20Road%20Rockville%20Centre%20NY%2011570",
       "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-          "opens": "10:00",
-          "closes": "20:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Friday", "Saturday"],
-          "opens": "10:00",
-          "closes": "21:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "10:00",
-          "closes": "20:30"
-        }
+            {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday"
+                  ],
+                  "opens": "10:00",
+                  "closes": "20:30"
+            },
+            {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                        "Friday",
+                        "Saturday"
+                  ],
+                  "opens": "10:00",
+                  "closes": "21:00"
+            },
+            {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Sunday",
+                  "opens": "10:00",
+                  "closes": "20:30"
+            }
       ],
       "potentialAction": {
-        "@type": "OrderAction",
-        "target": "https://bonbinospizza-rockville.avcoindustries.com/order-now"
+            "@type": "OrderAction",
+            "target": "https://bonbinospizza-rockville.avcoindustries.com/order-now"
+      },
+      "menu": "https://bonbinospizza-rockville.avcoindustries.com/order-now",
+      "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6541204,
+            "longitude": -73.6309448
       }
-    }
+}
     </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
