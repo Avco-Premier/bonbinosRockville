@@ -9,6 +9,9 @@ html[data-variant="bold"]:root {
   --t-on-navy: #ffd9d4;
   --t-line: rgb(74 10 10 / .2);
   --sand: #fbe0dc;
+  --t-green: #ff8a7d;
+  --t-orange: #ffb3a7;
+  --t-red: #ff6a5c;
 }
 html[data-variant="bold"] .site-header,
 html[data-variant="bold"] .nav-toggle > nav,
