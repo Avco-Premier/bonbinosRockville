@@ -1,75 +1,77 @@
 {
   "site": {
-    "url": "TODO: https://www.client-domain.com",
+    "url": "https://www.bonbinosrockvillecentre.com",
     "language": "en-US",
-    "marketTier": "TODO: dense-metro | large-city | mid-city | suburb-small",
+    "marketTier": "mid-city",
     "locale": "en_US",
-    "themeColor": "#7a1f1f",
+    "themeColor": "#0d7d0d",
     "launched": false,
     "vercelProjectDomain": "",
     "aiTraining": true,
     "nav": [
       "menu",
-      "catering",
       "about",
       "visit",
       "faq"
     ],
-    "menuUpdated": "TODO: YYYY-MM-DD",
+    "menuUpdated": "2026-10-30",
     "analytics": {
       "ga4Id": ""
     },
     "searchConsoleVerification": "",
     "redirects": [],
-    "privacyUpdated": "",
-    "menuNotice": ""
+    "privacyUpdated": "2026-10-30",
+    "menuNotice": "",
+    "headerLogo": "image",
+    "colors": {
+      "brand": "#0d7d0d",
+      "background": "#fbf0db"
+    },
+    "theme": "bold"
   },
   "business": {
-    "name": "TODO: Exact name as on the Google Business Profile",
+    "name": "Bonbino's",
     "alternateNames": [],
-    "description": "TODO: One factual sentence: what it is, where, since when.",
-    "category": "TODO: Primary category in words, e.g. Italian deli",
+    "description": "Bonbino's is a pizza restaurant in Rockville Centre, NY.",
+    "category": "Pizza restaurant",
     "gbpCategories": [
-      "TODO: GBP primary category"
+      "Pizza restaurant",
+      "Pizza delivery",
+      "Food delivery"
     ],
     "cuisines": [
-      "TODO: e.g. Italian"
+      "Pizza"
     ],
     "meals": [
-      "TODO: breakfast | brunch | lunch | dinner | late-night"
+      "lunch",
+      "dinner"
     ],
     "services": {
       "dineIn": true,
       "takeout": true,
-      "delivery": false,
+      "delivery": true,
       "catering": false,
       "reservations": false,
       "privateEvents": false
     },
-    "priceRange": "$$",
+    "priceRange": "$",
     "foundingYear": null,
-    "founders": [
-      {
-        "name": "TODO: owner name",
-        "role": "Owner",
-        "bio": ""
-      }
-    ],
-    "phone": "TODO: +1-555-555-5555",
-    "phoneDisplay": "TODO: (555) 555-5555",
+    "founders": [],
+    "phone": "+1-516-764-9237",
+    "phoneDisplay": "(516) 764-9237",
     "additionalPhones": [],
     "email": "",
     "address": {
-      "street": "TODO",
-      "locality": "TODO",
-      "region": "TODO",
-      "postalCode": "TODO",
+      "street": "605 Merrick Rd",
+      "locality": "Rockville Centre",
+      "region": "NY",
+      "postalCode": "11570",
       "country": "US",
       "neighborhood": ""
     },
     "geo": {
-      "lat": null,
-      "lng": null
+      "lat": 40.65411,
+      "lng": -73.63088
     },
     "hours": [
       {
@@ -77,11 +79,25 @@
           "Monday",
           "Tuesday",
           "Wednesday",
-          "Thursday",
-          "Friday"
+          "Thursday"
         ],
-        "opens": "TODO: 07:00",
-        "closes": "TODO: 17:00"
+        "opens": "10:00",
+        "closes": "20:30"
+      },
+      {
+        "days": [
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "10:00",
+        "closes": "21:00"
+      },
+      {
+        "days": [
+          "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "20:30"
       }
     ],
     "hoursNote": "",
@@ -89,13 +105,13 @@
     "servicePeriods": [],
     "serviceArea": [],
     "delivery": {
-      "radiusMiles": null,
-      "fee": "",
-      "minimum": "",
+      "radiusMiles": 3,
+      "fee": "$3",
+      "minimum": "$1",
       "partners": []
     },
     "ordering": {
-      "url": "",
+      "url": "https://bonbinospizza-rockville.direct-ordering.com",
       "label": "Order online",
       "provider": ""
     },
@@ -103,18 +119,18 @@
       "url": ""
     },
     "apps": {
-      "iosAppId": "",
       "iosUrl": "",
-      "androidUrl": ""
+      "androidUrl": "",
+      "iosAppId": ""
     },
     "google": {
-      "placeId": "TODO",
-      "mapsUrl": "TODO: https://maps.google.com/?cid=...",
-      "reviewUrl": "TODO: https://search.google.com/local/writereview?placeid=...",
+      "placeId": "ChIJ4z7jvEJ7wokROSYQhmzVBYo",
+      "mapsUrl": "https://maps.google.com/?cid=9945590014199998009",
+      "reviewUrl": "https://search.google.com/local/writereview?placeid=ChIJ4z7jvEJ7wokROSYQhmzVBYo",
       "embedUrl": "",
-      "rating": null,
-      "reviewCount": null,
-      "ratingCheckedOn": ""
+      "rating": 4.5,
+      "reviewCount": 395,
+      "ratingCheckedOn": "2026-10-30"
     },
     "social": {
       "instagram": "",
@@ -126,8 +142,31 @@
     },
     "press": [],
     "awards": [],
-    "reviews": [],
-    "featuredItems": [],
+    "reviews": [
+      {
+        "author": "AvCheu",
+        "text": "It's a traditional Italian eatery, not fancy but delicious food. Ordered the chicken francese and the lemon and quality was spot on. Visiting the hospital so this was close for lunch. Cash/credit is the same price. Perfect to stop in for a bite. No leftovers with the lunch plate!",
+        "source": "Google",
+        "date": "2026-04-18",
+        "rating": 4,
+        "url": "",
+        "context": "dine-in"
+      },
+      {
+        "author": "Aurora Achong",
+        "text": "Born and raised New Yorker. I know good pizza.  Bonbino's is the truth.  Excellent selection.  Great customer service.  Superb value.  Those 5minutes waiting for my order, it's the most fun.  The energy is positive and the food is amazing! Highly recommend!!!",
+        "source": "Google",
+        "date": "2022-03-25",
+        "rating": 5,
+        "url": "",
+        "context": "dine-in"
+      }
+    ],
+    "featuredItems": [
+      "Bonbino's Special Pizza",
+      "Roman Stuffed Sicilian Pizza",
+      "Grandma Pie"
+    ],
     "catering": {
       "menuFile": "catering",
       "leadTime": "",
@@ -143,22 +182,220 @@
       "headcountGuide": "",
       "dietary": ""
     },
-    "faq": [],
+    "faq": [
+      {
+        "q": "Where is Bonbino's?",
+        "a": "Bonbino's is at 605 Merrick Rd, Rockville Centre, NY 11570. It's near CVS and Oceanside School 5.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "What are your hours?",
+        "a": "We're open Mon–Thu 10 AM to 8:30 PM; Fri–Sat 10 AM to 9 PM; Sun 10 AM to 8:30 PM.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Where can I park?",
+        "a": "There's a free parking lot and free street parking. The nearest bus stop is Oceanside Rd / Merrick, just steps away.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Do you take reservations?",
+        "a": "No, we're walk-in only.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Can I order ahead for pickup?",
+        "a": "Yes. Order online at bonbinospizza-rockville.direct-ordering.com and pick it up at the counter.",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Do you deliver?",
+        "a": "Bonbino's delivers the full menu from 605 Merrick Rd to homes and offices in Rockville Centre, within about 3 miles of the restaurant. There's a $3 delivery fee and a $1 minimum order. Order online at bonbinospizza-rockville.direct-ordering.com or call (516) 764-9237 during our hours (Mon–Thu 10 AM to 8:30 PM; Fri–Sat 10 AM to 9 PM; Sun 10 AM to 8:30 PM).",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Do you have gluten-free options?",
+        "a": "Yes. The menu lists the Gluten Free Pizza ($13.50) and the Cauliflower Gluten Free Pizza ($13.50). Ask us about how it's prepared if you have an allergy.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What payment do you accept?",
+        "a": "We accept credit cards, debit cards and tap to pay.",
+        "topic": "Ordering and delivery"
+      },
+      {
+        "q": "Is the restaurant wheelchair accessible?",
+        "a": "Yes. Wheelchair-accessible entrance, restroom, seating and parking.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "Can I bring my dog?",
+        "a": "No, Bonbino's isn't dog-friendly.",
+        "topic": "Hours and visiting"
+      },
+      {
+        "q": "What should I order the first time?",
+        "a": "Start with our signature dishes: Bonbino's Special Pizza ($29.95), the Roman Stuffed Sicilian Pizza ($29) and the Grandma Pie ($21.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "How much does a meal cost?",
+        "a": "Most dishes on the Bonbino's menu cost $5.25 to $29.95. The menu has 24 sections: Pizza, Stuffed Sicilian Pizza, Square Pizza, Chicken Pie, Healthy Pizza, Specialty Pizza, Pizza By The Slice, All Day Breakfast Pizza, No Mix & Match, Appetizers, Homemade Soup, Salads, Side Dishes, Specialties, Heroes, Paninis, Wraps, Pasta, Baked Dishes, Dinners, Chicken Dinners, Veal Dinners, Seafood Dinners and Beverages, with every price listed on the menu page.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is Bonbino's Special Pizza?",
+        "a": "Bonbino's Special Pizza costs $29.95. It's made with sausage, pepperoni, peppers, onions, mushrooms, meatballs and and extra cheese.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Roman Stuffed Sicilian Pizza?",
+        "a": "The Roman Stuffed Sicilian Pizza costs $29. It's made with potato, cheese, sausage, pepperoni and onions.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What is the Grandma Pie?",
+        "a": "The Grandma Pie costs $21.50.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pizza do you serve?",
+        "a": "The Pizza section of our menu has Regular Cheese Pizza ($18.95), Sicilian Cheese Pizza ($21.95), Bonbino's Special Pizza ($29.95) and Bonbino's Special Sicilian Pizza ($32.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What stuffed Sicilian pizza do you serve?",
+        "a": "The Stuffed Sicilian Pizza section of our menu has Roman Stuffed Sicilian Pizza ($29) and Chicago Stuffed Sicilian Pizza ($29).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What square pizza do you serve?",
+        "a": "The Square Pizza section of our menu has Grandma Pie ($21.50), Marinara Pie ($19.50), Drunken Pie ($20.50) and Fresh Mozzarella & Tomato Pie ($23.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What chicken pie do you serve?",
+        "a": "The Chicken Pie section of our menu has Buffalo Chicken Pizza ($29.95), Chicken Parmigiana Pizza ($29.95), Chicken & Broccoli Pizza ($29.95), Chicken Bacon with Ranch Pizza ($29.95) and BBQ Chicken Pizza ($29.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What healthy pizza do you serve?",
+        "a": "The Healthy Pizza section of our menu has Grilled Chicken Caesar Salad Pie ($29.95), Vegetable Pie ($29.95) and Salad Pie ($25.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What specialty pizza do you serve?",
+        "a": "The Specialty Pizza section of our menu has White Pizza ($24.95), Baked Ziti Pizza ($28.95), Penne Alla Vodka Pizza ($28.95), Margherita Pizza ($21) and Gluten Free Pizza ($13.50), and 1 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pizza by the slice do you serve?",
+        "a": "The Pizza By The Slice section of our menu has Penne Alla Vodka Pizza Slice ($5.50), Cheese Pizza Slice ($3.60), Sicilian Pizza Slice ($3.60), Grandma Pizza Slice ($3.75) and Drunken Grandma Pizza Slice ($3.75), and 8 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What all day breakfast pizza do you serve?",
+        "a": "The All Day Breakfast Pizza section of our menu has Meat Lover Breakfast Pizza ($29.95) and Vegetable Lover Breakfast Pizza ($29.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What no mix & match do you serve?",
+        "a": "The No Mix & Match section of our menu has #1 Family Special (A) ($29.99), #2 Family Special (B) ($46.99), Special C ($34.99), Special D ($33.99) and Special E ($33.99), and 9 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What appetizers do you serve?",
+        "a": "The Appetizers section of our menu has Baked Clams ($12.50), Eggplant Rollatini ($12.50), Fried Calamari ($14.50), Stuffed Mushroom ($10) and Mussels Marinara ($14.50), and 12 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What homemade soup do you serve?",
+        "a": "The Homemade Soup section of our menu has Chicken Noodle Soup ($5.75), Minestrone Soup ($5.75), Stracciatella Soup ($6.50), Pasta e Fagioli Soup ($6.50) and Tortellini in Brodo Soup ($6.50), and 1 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What salads do you serve?",
+        "a": "The Salads section of our menu has Bonbino Salad ($9) and Caesar Salad ($8.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What specialties do you serve?",
+        "a": "The Specialties section of our menu has Calzone ($8.50), Calzone with Meat ($10.50), Calzone with Spinach ($10.50), Spinach Roll ($7.95) and Sausage Roll ($7.95), and 3 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What heroes do you serve?",
+        "a": "The Heroes section of our menu has Meatball Hero ($10.50), Sausage Hero ($10.50), Eggplant Hero ($10.50), Sausage & Peppers Hero ($10.50) and Eggs Hero with Pepper ($10), and 10 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What paninis do you serve?",
+        "a": "The Paninis section of our menu has Panini with Chicken, Roasted Peppers & Fresh Mozzarella ($9.75), Panini with Fresh Mozzarella & Tomatoes ($9.75) and Panini with Eggplant, Roasted Peppers & Fresh Mozzarella ($9.75).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What wraps do you serve?",
+        "a": "The Wraps section of our menu has Chicken Caesar Wrap ($9.50), Chicken & Roasted Peppers Wrap ($9.50), Eggplant & Roasted Peppers Wrap ($9.50), Buffalo Chicken Wrap ($9.50) and Chicken Bacon Ranch Wrap ($9.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What pasta do you serve?",
+        "a": "The Pasta section of our menu has Spaghetti with Tomato Sauce ($12.95), Ziti with Tomato Sauce ($12.95), Spaghetti with Meatballs ($17.50), Spaghetti with Sausage ($17.50) and Spaghetti Bolognese ($18.50), and 5 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What baked dishes do you serve?",
+        "a": "The Baked Dishes section of our menu has Baked Lasagna ($15.50), Baked Ravioli ($14.50), Baked Ziti ($14.50) and Baked Stuffed Shells ($14.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What dinners do you serve?",
+        "a": "The Dinners section of our menu has Rigatoni Alla Vodka with Chicken ($18.50), Eggplant Parmigiana ($19.50), Chicken Cutlet Parmigiana ($19.50), Veal Cutlet Parmigiana ($23.95) and Chicken & Eggplant Combo ($21.50), and 14 more.",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What chicken dinners do you serve?",
+        "a": "The Chicken Dinners section of our menu has Chicken Bonbino ($20.50), Chicken Marsala ($20.50) and Chicken Francese ($20.50).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What veal dinners do you serve?",
+        "a": "The Veal Dinners section of our menu has Veal Bonbino ($22.95), Veal Marsala ($22.95) and Veal Francese ($22.95).",
+        "topic": "Food and menu"
+      },
+      {
+        "q": "What seafood dinners do you serve?",
+        "a": "The Seafood Dinners section of our menu has Shrimp Scampi ($20.95), Shrimp Parmigiana ($20.95), Shrimp Francese ($20.95), Shrimp Marinara ($20.95) and Shrimp Fra Diavolo ($20.95), and 8 more.",
+        "topic": "Food and menu"
+      }
+    ],
     "video": null,
-    "logo": "logo.svg",
+    "logo": "logo.png",
     "healthInspectionUrl": "",
     "foundingDate": "",
     "visit": {
-      "landmarks": "",
-      "parking": "",
-      "transit": "",
-      "accessibility": "",
+      "landmarks": "Near CVS and Oceanside School 5.",
+      "parking": "There's a free parking lot and free street parking.",
+      "transit": "The nearest bus stop is Oceanside Rd / Merrick, just steps away.",
+      "accessibility": "Wheelchair-accessible entrance, restroom, seating and parking.",
       "arrival": "",
       "pickup": ""
     },
-    "amenities": {},
-    "paymentMethods": [],
-    "dietaryNote": ""
+    "amenities": {
+      "outdoorSeating": false,
+      "wheelchairAccessible": true,
+      "dogFriendly": false,
+      "parking": true
+    },
+    "paymentMethods": [
+      "Credit cards",
+      "Debit cards",
+      "Tap to pay"
+    ],
+    "dietaryNote": "",
+    "ownerWords": "Bonbino's is a pizza restaurant at 605 Merrick Rd in Rockville Centre, NY. You'll find us near CVS and Oceanside School 5. Come in for lunch and dinner any day of the week.\n\nThe pizza by the slice list runs 13 choices long, from the Penne Alla Vodka Pizza Slice to the Cheese Pizza Slice. There's also a pizza list with four choices and a stuffed Sicilian pizza list with two choices. Bonbino's Special Pizza ($29.95) is made with sausage, pepperoni, peppers, onions, mushrooms, meatballs, and extra cheese. The Roman Stuffed Sicilian Pizza ($29) is made with potato, cheese, sausage, pepperoni, onions. For guests who avoid gluten, the menu has the Gluten Free Pizza and the Cauliflower Gluten Free Pizza.\n\nGuests rate Bonbino's 4.5 stars across 395+ Google reviews. “It's a traditional Italian eatery, not fancy but delicious food.” (AvCheu, Google review) “The energy is positive and the food is amazing!” (Aurora Achong, Google review)\n\nYou can eat in, take out or order delivery. You can order ahead online and pick it up at the restaurant. We deliver within about 3 miles for a $3 fee with a $1 minimum. There's a free parking lot and free street parking. Stop by 605 Merrick Rd, or call (516) 764-9237 and we'll have your order ready.",
+    "milestones": [],
+    "featuredNotes": {}
   },
   "seo": {
     "dishTerms": []

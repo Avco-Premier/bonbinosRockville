@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "file": "ordering-site-photo-1.jpg",
+    "alt": "Food at Bonbino's in Rockville Centre (photo 1)",
+    "subject": "dish",
+    "use": [
+      "home-hero",
+      "social"
+    ]
+  },
+  {
+    "file": "ordering-site-photo-2.jpg",
+    "alt": "Food at Bonbino's in Rockville Centre (photo 2)",
+    "subject": "dish"
+  },
+  {
+    "file": "ordering-site-photo-3.jpg",
+    "alt": "Food at Bonbino's in Rockville Centre (photo 3)",
+    "subject": "dish"
+  },
+  {
+    "file": "ordering-site-photo-4.jpg",
+    "alt": "Food at Bonbino's in Rockville Centre (photo 4)",
+    "subject": "dish"
+  },
+  {
+    "file": "img.jpg",
+    "alt": "Food at Bonbino's in Rockville Centre (photo 5)",
+    "subject": "dish"
+  }
+]

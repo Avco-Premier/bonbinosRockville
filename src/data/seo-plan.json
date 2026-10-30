@@ -1,0 +1,280 @@
+{
+  "source": "playbook estimate (mid-city tier, assets/keyword-playbook.json)",
+  "location": "Rockville Centre, NY",
+  "pages": {
+    "home": {
+      "primary": "pizza rockville centre",
+      "secondary": [
+        "dinner rockville centre",
+        "best lunch rockville centre",
+        "best lunch in rockville centre",
+        "best dinner rockville centre",
+        "best dinner in rockville centre"
+      ],
+      "options": [
+        {
+          "query": "lunch rockville centre",
+          "volume": 1900
+        },
+        {
+          "query": "dinner rockville centre",
+          "volume": 1000
+        },
+        {
+          "query": "lunch downtown rockville centre",
+          "volume": 250
+        },
+        {
+          "query": "dinner downtown rockville centre",
+          "volume": 130
+        },
+        {
+          "query": "pizza restaurant rockville centre",
+          "volume": 50
+        },
+        {
+          "query": "pizza restaurant downtown rockville centre",
+          "volume": 10
+        }
+      ],
+      "decide": "Confirm primary = what the business is (e.g. 'breakfast asheville' for a breakfast cafe), not just the top volume.",
+      "decision": "pizza rockville centre: matches what Bonbino's is (pizza restaurant); unknown/mo (playbook estimate). Picked automatically by quickbuild."
+    },
+    "menu": {
+      "primary": "bonbino's menu",
+      "secondary": []
+    }
+  },
+  "dishes": [
+    {
+      "term": "pizzas",
+      "item": "Bonbino's Special Pizza",
+      "slug": "pizzas",
+      "primary": "pizzas rockville centre",
+      "secondary": [
+        "best pizzas rockville centre",
+        "best pizzas in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "roman stuffed sicilian pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "roman-stuffed-sicilian-pizza",
+      "primary": "roman stuffed sicilian pizza rockville centre",
+      "secondary": [
+        "best roman stuffed sicilian pizza rockville centre",
+        "best roman stuffed sicilian pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "grandma pies",
+      "item": "Grandma Pie",
+      "slug": "grandma-pies",
+      "primary": "grandma pies rockville centre",
+      "secondary": [
+        "best grandma pies rockville centre",
+        "best grandma pies in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "pizza",
+      "primary": "pizza rockville centre",
+      "secondary": [
+        "best pizza rockville centre",
+        "best pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "stuffed sicilian pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "stuffed-sicilian-pizza",
+      "primary": "stuffed sicilian pizza rockville centre",
+      "secondary": [
+        "best stuffed sicilian pizza rockville centre",
+        "best stuffed sicilian pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "square pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "square-pizza",
+      "primary": "square pizza rockville centre",
+      "secondary": [
+        "best square pizza rockville centre",
+        "best square pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "chicken pie",
+      "item": "Grandma Pie",
+      "slug": "chicken-pie",
+      "primary": "chicken pie rockville centre",
+      "secondary": [
+        "best chicken pie rockville centre",
+        "best chicken pie in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "healthy pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "healthy-pizza",
+      "primary": "healthy pizza rockville centre",
+      "secondary": [
+        "best healthy pizza rockville centre",
+        "best healthy pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "specialty pizza",
+      "item": "Bonbino's Special Pizza",
+      "slug": "specialty-pizza",
+      "primary": "specialty pizza rockville centre",
+      "secondary": [
+        "best specialty pizza rockville centre",
+        "best specialty pizza in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: quickbuild doesn't write dish pages (they need 600+ words of real substance from the client); estimate None/mo. Covered on /menu/ and the homepage. Ask the builder for a dish page if it matters."
+    },
+    {
+      "term": "appetizers",
+      "item": "",
+      "slug": "appetizers",
+      "primary": "appetizers rockville centre",
+      "secondary": [
+        "best appetizers rockville centre",
+        "best appetizers in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "homemade soup",
+      "item": "",
+      "slug": "homemade-soup",
+      "primary": "homemade soup rockville centre",
+      "secondary": [
+        "best homemade soup rockville centre",
+        "best homemade soup in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "salads",
+      "item": "",
+      "slug": "salads",
+      "primary": "salads rockville centre",
+      "secondary": [
+        "best salads rockville centre",
+        "best salads in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "specialties",
+      "item": "",
+      "slug": "specialties",
+      "primary": "specialties rockville centre",
+      "secondary": [
+        "best specialties rockville centre",
+        "best specialties in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    },
+    {
+      "term": "heroes",
+      "item": "",
+      "slug": "heroes",
+      "primary": "heroes rockville centre",
+      "secondary": [
+        "best heroes rockville centre",
+        "best heroes in rockville centre"
+      ],
+      "volume": null,
+      "status": "no-page",
+      "decision": "no page: estimate None/mo (< 30). Covered on /menu/ and the homepage."
+    }
+  ],
+  "areas": [],
+  "nearMe": [
+    {
+      "query": "lunch near me",
+      "volume": 8680
+    },
+    {
+      "query": "dinner near me",
+      "volume": 4570
+    },
+    {
+      "query": "pizza near me",
+      "volume": 280
+    },
+    {
+      "query": "best pizza near me",
+      "volume": 280
+    },
+    {
+      "query": "pizza restaurant near me",
+      "volume": 220
+    },
+    {
+      "query": "best lunch near me",
+      "volume": 110
+    },
+    {
+      "query": "best dinner near me",
+      "volume": 60
+    },
+    {
+      "query": "lunch delivery near me",
+      "volume": 30
+    },
+    {
+      "query": "pizzas near me",
+      "volume": 10
+    },
+    {
+      "query": "best pizzas near me",
+      "volume": 10
+    }
+  ],
+  "notes": [
+    "Dish/area pages marked 'candidate' still need the page gate in references/local-seo.md §3 (real substance from intake). Max 5 dish pages, 4 area pages.",
+    "'near me' queries are won through the Google Business Profile and relevance, never by writing 'near me' on pages.",
+    "Targets chosen automatically by quickbuild.py from the offline playbook."
+  ]
+}
