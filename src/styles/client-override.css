@@ -15,6 +15,7 @@ html[data-variant="bold"]:root {
 }
 html[data-variant="bold"] .site-header,
 html[data-variant="bold"] .nav-toggle > nav,
+html[data-variant="bold"] .wordmark-band,
 html[data-variant="bold"] .hero,
 html[data-variant="bold"] .page-hero,
 html[data-variant="bold"] .highlights,
