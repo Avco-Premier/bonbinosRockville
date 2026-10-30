@@ -1,11 +1,10 @@
 # quickbuild report — Bonbino's
 
-Built 2026-10-30 · 5 gate round(s) · **2 FAIL · 10 WARN**
+Built 2026-10-30 · 1 gate round(s) · **1 FAIL · 10 WARN**
 
 ## Must fix before launch
 
 - On-Page · Title length 30–60 (/privacy/): 26 chars: Privacy Notice | Bonbino's
-- On-Page · Meta description 120–160 (/privacy/): 117 chars
 
 ## Warnings
 

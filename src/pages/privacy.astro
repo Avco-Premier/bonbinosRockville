@@ -14,7 +14,10 @@ const updated = (site as any).privacyUpdated
 // Long names overflow the title (raw '&amp;' counts 5); use the short name from alternateNames then.
 const shortName = ((biz as any).alternateNames ?? []).find((n: string) => n && n.length < biz.name.length);
 const rawLen = (s: string) => s.replace(/&/g, '&amp;').length;
+const loc = (biz as any).address?.locality ?? '';
+const reg = (biz as any).address?.region ?? '';
 const title = [`Privacy Notice | ${biz.name}`, ...(shortName ? [`Privacy Notice | ${shortName}, ${(biz as any).address?.locality ?? ''}`, `Privacy Notice | ${shortName}`] : [])]
+  .concat(loc ? [`Privacy Notice | ${biz.name}, ${loc}`, `Privacy Notice | ${biz.name} in ${loc}, ${reg}`, `Privacy Notice | ${biz.name} ${loc}`] : [])
   .find((t) => rawLen(t) >= 30 && rawLen(t) <= 56) ?? `Privacy Notice | ${biz.name}`;
 // 120-160 characters whatever the name length (a short name like "Bonbino's" made the fixed sentence 117).
 const descs = [
