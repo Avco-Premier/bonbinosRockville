@@ -1,7 +1,8 @@
-/* Bonbino's: red palette for the Bold look. Re-declares Bold's color tokens only.
-   Contrast: deep maroon ink on red field ~5.5:1, on cream ~14:1; white on maroon ~15:1; muted on cream ~7:1. */
+/* Bonbino's: one red for the whole Bold look, the footer's deep red #4a0a0a.
+   Red fields (header, hero, page heroes, highlights, quotes, red cards) swap ink and paper inside them:
+   cream/white text and buttons on #4a0a0a (white on #4a0a0a ~15:1). Cream sections keep #4a0a0a ink (~14:1). */
 html[data-variant="bold"]:root {
-  --t-blue: #ff5a4d;
+  --t-blue: #4a0a0a;
   --t-navy: #4a0a0a;
   --t-navy-2: #7a1212;
   --t-muted: #6b3a3a;
@@ -9,3 +10,21 @@ html[data-variant="bold"]:root {
   --t-line: rgb(74 10 10 / .2);
   --sand: #fbe0dc;
 }
+html[data-variant="bold"] .site-header,
+html[data-variant="bold"] .nav-toggle > nav,
+html[data-variant="bold"] .hero,
+html[data-variant="bold"] .page-hero,
+html[data-variant="bold"] .highlights,
+html[data-variant="bold"] .quotes,
+html[data-variant="bold"] .action-bar,
+html[data-variant="bold"] .package:nth-child(3n+2),
+html[data-variant="bold"] .feature.tone-b {
+  --t-navy: #ffffff;
+  --t-white: #4a0a0a;
+  --t-navy-2: #ffd9d4;
+  --t-muted: #ffd9d4;
+  --t-line: rgb(255 255 255 / .35);
+  color: #ffffff;
+}
+html[data-variant="bold"] .nav-toggle summary { --t-navy: #4a0a0a; --t-white: #ffffff; }
+html[data-variant="bold"] .footer-mark { color: #ffd9d4; }
