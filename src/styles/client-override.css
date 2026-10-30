@@ -1,0 +1,11 @@
+/* Bonbino's: red palette for the Bold look. Re-declares Bold's color tokens only.
+   Contrast: deep maroon ink on red field ~5.5:1, on cream ~14:1; white on maroon ~15:1; muted on cream ~7:1. */
+html[data-variant="bold"]:root {
+  --t-blue: #ff5a4d;
+  --t-navy: #4a0a0a;
+  --t-navy-2: #7a1212;
+  --t-muted: #6b3a3a;
+  --t-on-navy: #ffd9d4;
+  --t-line: rgb(74 10 10 / .2);
+  --sand: #fbe0dc;
+}
